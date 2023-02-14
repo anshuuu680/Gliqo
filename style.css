@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    position: fixed;
+    /* position: absolute; */
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+    padding: 0 40px;
+    color: aliceblue;
+    background-color:rgb(18, 18, 18);
+}
+#rightnav{
+    font-family:gilroy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    font-size: 17px;
+    font-weight: 100;
+}
+#logodiv{
+    font-family:gilroy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    font-size: 17px;
+    font-weight: 100;
+}
+#nav button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+#rightnav>i{
+    color: white;
+    font-size: 25px;
+}
+#searchbar input{
+   caret-color: blue;
+   caret-shape: underscore;
+    padding: 10px 80px;
+    color: white;
+    background-color: transparent;
+}
+
+
+
+
+#page3{
+   position: relative;
+    width: 100%;
+    height: 120vh;
+    color: aliceblue;
+    background-color:black;
+    padding: 40px 40px;
+}
+#servicesMainDiv{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.professionals{
+    margin-right: 20px;
+    margin-top: 20px;
+    display:inline-block;
+   position: relative;
+    width: 20vw;
+    height: 45vh;
+    background-color:aquamarine;
+    filter: drop-shadow(10px 5px 5px #222);
+}
+
+  
